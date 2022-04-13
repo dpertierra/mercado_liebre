@@ -100,7 +100,7 @@ nav ul {
 
 .search-btn {
 	border: 0;
-	background: #fff;eac926uro);
+	background: #fff;
 	height: 2rem;
 	border-radius: 3px;
 }
@@ -127,7 +127,7 @@ nav ul {
 	padding: 7px;
 	right: -80%;
 	top: 15px;
-	transition: transform 300ms ease-in-out;
+	transition: transform 200ms ease-in-out;
 }
 
 .product-text {
@@ -292,18 +292,20 @@ footer {
 		display: block;
 		animation: display_animation 0.5s;
 	}
-
+	.truck-icon {
+		right: -85%;
+	}
 	.truck-icon:hover {
 		transform: rotate(-90deg);
 	}
 
-	.features{
+	.features {
 		display: flex;
-		gap: 1rem
+		gap: 1rem;
 	}
-	.feature-icon:hover{
+	.feature-icon:hover {
 		color: var(--amarillo);
-		filter: brightness(.80);
+		filter: brightness(0.8);
 	}
 }
 
