@@ -292,9 +292,6 @@ footer {
 		display: block;
 		animation: display_animation 0.5s;
 	}
-	.truck-icon {
-		right: -85%;
-	}
 	.truck-icon:hover {
 		transform: rotate(-90deg);
 	}
