@@ -25,3 +25,7 @@ app.post("/login", (req, res) => {
 	console.log("Se recibio el formulario");
 	res.sendFile(path.resolve(__dirname, "views/home.html"));
 });
+
+app.get("/search", (req, res) => {
+	console.log("Se busqueda");
+});
